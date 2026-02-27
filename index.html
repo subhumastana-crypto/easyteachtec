@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EasyTeachTec provides complete backend support, high-quality study materials, lesson plans, notes, and automation support for schools and teachers across India." />
+  <meta name="keywords" content="teacher support, school backend, lesson plans, study materials, teaching aids, EasyTeachTec, teacher productivity" />
+  <meta name="author" content="EasyTeachTec" />
+  <meta property="og:title" content="EasyTeachTec – Reduce Teacher Workload. Increase Productivity." />
+  <meta property="og:description" content="Complete backend support and high-quality study materials so teachers can focus on teaching, not paperwork." />
+  <meta property="og:type" content="website" />
+  <title>EasyTeachTec – Backend Support for Schools & Teachers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======== NAVBAR ======== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" id="nav-logo-link">
+        <div class="logo-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="url(#logoGrad)"/>
+            <path d="M8 22L16 10L24 22" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10.5 18H21.5" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1D4ED8"/>
+                <stop offset="1" stop-color="#2563EB"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <span class="logo-text">EasyTeach<span class="logo-accent">Tec</span></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#benefits" class="nav-link">Benefits</a></li>
+        <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="https://wa.me/919457286456" target="_blank" rel="noopener" class="btn btn-whatsapp nav-cta" id="nav-whatsapp-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======== HERO SECTION ======== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-container">
+      <div class="hero-content" data-aos="fade-up">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Trusted by Schools Across India
+        </div>
+        <h1 class="hero-title">
+          Reduce Teacher Workload.<br/>
+          <span class="gradient-text">Increase Productivity.</span>
+        </h1>
+        <p class="hero-subtitle">
+          EasyTeachTec provides complete backend support and high-quality study materials so teachers can focus on <strong>teaching, not paperwork.</strong>
+        </p>
+        <div class="hero-cta-group">
+          <a href="https://wa.me/919457286456" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg" id="hero-whatsapp-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Connect on WhatsApp
+          </a>
+          <a href="#services" class="btn btn-outline btn-lg" id="hero-explore-btn">
+            Explore Services
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Teachers Supported</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Schools Onboarded</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">5hrs+</span>
+            <span class="stat-label">Saved Daily</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual" data-aos="fade-left">
+        <div class="hero-card-stack">
+          <div class="floating-card card-1">
+            <div class="card-icon-sm" style="background:#EFF6FF;">📚</div>
+            <div>
+              <div class="card-title-sm">Lesson Plan Ready</div>
+              <div class="card-sub-sm">Class 8 – Science</div>
+            </div>
+            <span class="card-badge-sm success">Done</span>
+          </div>
+          <div class="floating-card card-2">
+            <div class="card-icon-sm" style="background:#F0FDF4;">🗺️</div>
+            <div>
+              <div class="card-title-sm">Mind Map Created</div>
+              <div class="card-sub-sm">History Chapter 3</div>
+            </div>
+            <span class="card-badge-sm success">Done</span>
+          </div>
+          <div class="hero-illustration">
+            <div class="illustration-circle">
+              <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+                <circle cx="60" cy="60" r="56" fill="url(#heroGrad)" opacity="0.12"/>
+                <circle cx="60" cy="60" r="40" fill="url(#heroGrad)" opacity="0.18"/>
+                <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-size="48">🎓</text>
+                <defs>
+                  <linearGradient id="heroGrad" x1="0" y1="0" x2="120" y2="120">
+                    <stop stop-color="#1D4ED8"/>
+                    <stop offset="1" stop-color="#22C55E"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="floating-card card-3">
+            <div class="card-icon-sm" style="background:#FFF7ED;">📊</div>
+            <div>
+              <div class="card-title-sm">Infographic Sent</div>
+              <div class="card-sub-sm">Maths Formulas</div>
+            </div>
+            <span class="card-badge-sm blue">New</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0 40C240 80 480 0 720 40C960 80 1200 0 1440 40V80H0V40Z" fill="#F8FAFC"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ======== ABOUT SECTION ======== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title">Your Dedicated <span class="gradient-text">Backend Education Partner</span></h2>
+        <p class="section-subtitle">We handle the heavy lifting so teachers can do what they do best – inspire young minds.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual" data-aos="fade-right">
+          <div class="about-image-wrapper">
+            <div class="about-blob">
+              <div class="about-center-illustration">
+                <div style="font-size:72px; line-height:1;">🏫</div>
+                <p style="color:#1D4ED8; font-weight:600; margin-top:12px; font-size:15px;">Empowering Education</p>
+              </div>
+            </div>
+            <div class="about-floating-badge badge-left">
+              <span>📋</span>
+              <div>
+                <b>Zero Paperwork</b>
+                <small>We handle it all</small>
+              </div>
+            </div>
+            <div class="about-floating-badge badge-right">
+              <span>⏱️</span>
+              <div>
+                <b>Time Saved</b>
+                <small>5+ hours/day</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-content" data-aos="fade-left">
+          <p class="about-description">
+            EasyTeachTec is a <strong>specialist backend support company</strong> built exclusively for the education sector. We partner with schools, coaching institutes, and individual teachers to deliver everything they need — from structured lesson plans to visually engaging study materials — so classrooms become more effective and teachers less burdened.
+          </p>
+          <div class="about-features">
+            <div class="about-feature" id="about-feature-1">
+              <div class="feature-icon-wrap blue">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+              </div>
+              <div>
+                <h4>Reduce Paperwork</h4>
+                <p>All administrative documentation, plans, and reports handled professionally so teachers never drown in paperwork again.</p>
+              </div>
+            </div>
+            <div class="about-feature" id="about-feature-2">
+              <div class="feature-icon-wrap green">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <h4>Save Teacher Time</h4>
+                <p>Ready-to-use, curriculum-aligned materials mean teachers spend less time preparing and more time delivering.</p>
+              </div>
+            </div>
+            <div class="about-feature" id="about-feature-3">
+              <div class="feature-icon-wrap blue">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              </div>
+              <div>
+                <h4>Increase Teaching Quality</h4>
+                <p>Professionally designed infographics, mind maps, and slides elevate every lesson and boost student engagement.</p>
+              </div>
+            </div>
+            <div class="about-feature" id="about-feature-4">
+              <div class="feature-icon-wrap green">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+              </div>
+              <div>
+                <h4>Professional Teaching Support</h4>
+                <p>A dedicated team of education specialists always available via WhatsApp to fulfill any material request quickly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== SERVICES SECTION ======== -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Our Services</span>
+        <h2 class="section-title">Everything a Teacher <span class="gradient-text">Could Ever Need</span></h2>
+        <p class="section-subtitle">10+ high-quality content formats designed to make every classroom session impactful and effortless.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" id="service-lesson-plans" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-icon" style="background: linear-gradient(135deg,#EFF6FF,#DBEAFE);">📋</div>
+          <h3>Lesson Plans</h3>
+          <p>Detailed, structured lesson plans aligned with curriculum standards — topic-wise and class-wise, ready to use.</p>
+          <div class="service-tag">Curriculum-Aligned</div>
+        </div>
+
+        <div class="service-card" id="service-revision-plans" data-aos="fade-up" data-aos-delay="60">
+          <div class="service-icon" style="background: linear-gradient(135deg,#F0FDF4,#DCFCE7);">🔄</div>
+          <h3>Revision Plans</h3>
+          <p>Comprehensive revision schedules and materials that help students revise efficiently before exams.</p>
+          <div class="service-tag">Exam-Ready</div>
+        </div>
+
+        <div class="service-card" id="service-notes" data-aos="fade-up" data-aos-delay="120">
+          <div class="service-icon" style="background: linear-gradient(135deg,#FFF7ED,#FFEDD5);">📝</div>
+          <h3>Professional Notes</h3>
+          <p>Clear, concise, beautifully formatted notes for every topic — perfect for classroom handouts and self-study.</p>
+          <div class="service-tag">Print-Ready</div>
+        </div>
+
+        <div class="service-card" id="service-mind-maps" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-icon" style="background: linear-gradient(135deg,#FDF4FF,#F3E8FF);">🗺️</div>
+          <h3>Mind Maps</h3>
+          <p>Visual mind maps that simplify complex topics, making it easy for students to connect ideas and retain knowledge.</p>
+          <div class="service-tag">Visual Learning</div>
+        </div>
+
+        <div class="service-card" id="service-infographics" data-aos="fade-up" data-aos-delay="60">
+          <div class="service-icon" style="background: linear-gradient(135deg,#FFF1F2,#FFE4E6);">📊</div>
+          <h3>Infographics</h3>
+          <p>Stunning, data-rich infographics that communicate complex information simply and memorably to students.</p>
+          <div class="service-tag">Engaging Content</div>
+        </div>
+
+        <div class="service-card" id="service-slides" data-aos="fade-up" data-aos-delay="120">
+          <div class="service-icon" style="background: linear-gradient(135deg,#ECFDF5,#D1FAE5);">📱</div>
+          <h3>Presentation Slides</h3>
+          <p>Professional PowerPoint and Google Slides decks with rich visuals and animations for every lesson.</p>
+          <div class="service-tag">Classroom-Ready</div>
+        </div>
+
+        <div class="service-card" id="service-videos" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-icon" style="background: linear-gradient(135deg,#EFF6FF,#DBEAFE);">🎥</div>
+          <h3>Topic Explanation Videos</h3>
+          <p>Short, engaging explainer videos that break down difficult concepts into simple, easy-to-understand visuals.</p>
+          <div class="service-tag">Video Content</div>
+        </div>
+
+        <div class="service-card" id="service-flashcards" data-aos="fade-up" data-aos-delay="60">
+          <div class="service-icon" style="background: linear-gradient(135deg,#FFFBEB,#FEF3C7);">🃏</div>
+          <h3>Flash Cards</h3>
+          <p>Memorable, bite-sized flashcards for quick revision of key terms, definitions, formulas, and concepts.</p>
+          <div class="service-tag">Quick Revision</div>
+        </div>
+
+        <div class="service-card" id="service-sample-papers" data-aos="fade-up" data-aos-delay="120">
+          <div class="service-icon" style="background: linear-gradient(135deg,#F0FDF4,#DCFCE7);">📄</div>
+          <h3>Sample Papers</h3>
+          <p>Well-structured practice papers with varied question types, difficulty levels, and marking schemes included.</p>
+          <div class="service-tag">Exam Prep</div>
+        </div>
+
+        <div class="service-card service-card-wide" id="service-teaching-support" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-icon" style="background: linear-gradient(135deg,#FDF4FF,#F3E8FF);">🎯</div>
+          <h3>Teaching Support Materials</h3>
+          <p>A complete bundle of worksheets, activity sheets, rubrics, and supplementary materials that make teaching more structured, interactive, and effective for every class size.</p>
+          <div class="service-tag">All-In-One Bundle</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== BENEFITS SECTION ======== -->
+  <section class="section benefits-section" id="benefits">
+    <div class="container">
+      <div class="benefits-inner">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag" style="color:#22C55E; background:rgba(34,197,94,0.1);">Key Benefits</span>
+          <h2 class="section-title">Why Teachers <span class="gradient-text">Love EasyTeachTec</span></h2>
+          <p class="section-subtitle">Real, measurable impact on teacher wellbeing and student outcomes.</p>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-card" id="benefit-time" data-aos="zoom-in" data-aos-delay="0">
+            <div class="benefit-icon">⏱️</div>
+            <h3>Save 5+ Hours Daily</h3>
+            <p>Eliminate planning and preparation time. Get everything ready-to-use, delivered instantly on WhatsApp.</p>
+          </div>
+          <div class="benefit-card" id="benefit-stress" data-aos="zoom-in" data-aos-delay="80">
+            <div class="benefit-icon">😌</div>
+            <h3>Reduce Stress & Workload</h3>
+            <p>No more late-night lesson planning. Our expert team handles all material creation so you can recharge.</p>
+          </div>
+          <div class="benefit-card" id="benefit-quality" data-aos="zoom-in" data-aos-delay="160">
+            <div class="benefit-icon">⭐</div>
+            <h3>Improve Teaching Quality</h3>
+            <p>Professional-grade materials ensure every lesson is well-structured, visually engaging, and highly effective.</p>
+          </div>
+          <div class="benefit-card" id="benefit-ready" data-aos="zoom-in" data-aos-delay="0">
+            <div class="benefit-icon">📦</div>
+            <h3>Ready-to-Use Materials</h3>
+            <p>Zero editing needed. Just open and teach. Every material is polished, formatted, and classroom-ready.</p>
+          </div>
+          <div class="benefit-card" id="benefit-classroom" data-aos="zoom-in" data-aos-delay="80">
+            <div class="benefit-icon">🏆</div>
+            <h3>Increase Classroom Effectiveness</h3>
+            <p>Engaging visuals and structured content lead to higher student attention, better understanding, and improved results.</p>
+          </div>
+          <div class="benefit-card" id="benefit-support" data-aos="zoom-in" data-aos-delay="160">
+            <div class="benefit-icon">💬</div>
+            <h3>Instant WhatsApp Support</h3>
+            <p>Simply message us the topic and class — get professional materials delivered fast. Support is always a text away.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== HOW IT WORKS ======== -->
+  <section class="section hiw-section" id="how-it-works">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Process</span>
+        <h2 class="section-title">How It <span class="gradient-text">Works</span></h2>
+        <p class="section-subtitle">Getting professional teaching materials is as simple as sending a WhatsApp message.</p>
+      </div>
+      <div class="hiw-steps">
+        <div class="hiw-step" id="hiw-step-1" data-aos="fade-up" data-aos-delay="0">
+          <div class="step-number">1</div>
+          <div class="step-icon">💬</div>
+          <h3>Teacher Requests Topic</h3>
+          <p>Simply send us a WhatsApp message with your topic, class, and subject. That's all it takes to get started.</p>
+        </div>
+        <div class="hiw-arrow" aria-hidden="true">
+          <svg width="48" height="24" viewBox="0 0 48 24" fill="none"><path d="M0 12h44M36 4l8 8-8 8" stroke="#CBD5E1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="hiw-step" id="hiw-step-2" data-aos="fade-up" data-aos-delay="100">
+          <div class="step-number">2</div>
+          <div class="step-icon">⚙️</div>
+          <h3>We Create Professional Materials</h3>
+          <p>Our expert education team crafts high-quality lesson plans, notes, slides, and visuals tailored to your requirement.</p>
+        </div>
+        <div class="hiw-arrow" aria-hidden="true">
+          <svg width="48" height="24" viewBox="0 0 48 24" fill="none"><path d="M0 12h44M36 4l8 8-8 8" stroke="#CBD5E1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="hiw-step" id="hiw-step-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="step-number">3</div>
+          <div class="step-icon">🎉</div>
+          <h3>Teacher Uses Materials Easily</h3>
+          <p>Receive polished, classroom-ready materials delivered directly. Open, teach, and impress — zero extra effort needed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== WHATSAPP CTA SECTION ======== -->
+  <section class="whatsapp-cta-section" id="whatsapp-cta">
+    <div class="container">
+      <div class="whatsapp-cta-inner" data-aos="zoom-in">
+        <div class="wa-cta-icon">💬</div>
+        <h2>Ready to Transform Your Teaching Experience?</h2>
+        <p>Join hundreds of teachers who have reduced workload and improved classroom quality with EasyTeachTec. Connect with us instantly on WhatsApp — we're always available.</p>
+        <a href="https://wa.me/919457286456" target="_blank" rel="noopener" class="btn btn-whatsapp btn-xl" id="cta-whatsapp-btn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chat on WhatsApp Now
+        </a>
+        <p class="wa-note">📞 +91 9457286456 · Available Mon–Sat, 8AM–8PM</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== TESTIMONIALS ======== -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Testimonials</span>
+        <h2 class="section-title">What Teachers & Schools <span class="gradient-text">Say About Us</span></h2>
+        <p class="section-subtitle">Real experiences from educators who have transformed their teaching with EasyTeachTec.</p>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card" id="testimonial-1" data-aos="fade-up" data-aos-delay="0">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">EasyTeachTec has completely changed how I prepare for class. I used to spend 3 hours every evening making notes and slides. Now I just WhatsApp them the topic and get everything in minutes. Truly a lifesaver!</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg,#1D4ED8,#60A5FA);">PS</div>
+            <div>
+              <strong>Priya Sharma</strong>
+              <span>Science Teacher, Delhi Public School</span>
+            </div>
+            <div class="testimonial-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" id="testimonial-2" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">Our school partnered with EasyTeachTec and teacher satisfaction has gone through the roof. The quality of materials is outstanding — professional, well-designed, and perfectly aligned with our curriculum.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg,#22C55E,#86EFAC);">RV</div>
+            <div>
+              <strong>Rajesh Verma</strong>
+              <span>Principal, Sunrise Academy, Lucknow</span>
+            </div>
+            <div class="testimonial-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" id="testimonial-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">The mind maps and infographics they make are absolutely brilliant. My students are more engaged than ever before. I recommend EasyTeachTec to every teacher who wants to teach smarter, not harder.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg,#7C3AED,#C4B5FD);">AK</div>
+            <div>
+              <strong>Anjali Kulkarni</strong>
+              <span>Mathematics Teacher, Pune</span>
+            </div>
+            <div class="testimonial-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" id="testimonial-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">Running a coaching institute, I needed consistent quality materials for 12 teachers. EasyTeachTec delivers everything on time, and the students absolutely love the visual flash cards and sample papers.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg,#F59E0B,#FCD34D);">MG</div>
+            <div>
+              <strong>Mohan Gupta</strong>
+              <span>Director, Excel Coaching Centre, Agra</span>
+            </div>
+            <div class="testimonial-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" id="testimonial-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">I was skeptical at first, but the very first lesson plan they made for me was better than anything I had created in 10 years of teaching. The attention to detail is remarkable. Highly recommended!</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg,#EF4444,#FCA5A5);">SK</div>
+            <div>
+              <strong>Sunita Kumari</strong>
+              <span>English Teacher, Kendriya Vidyalaya, Meerut</span>
+            </div>
+            <div class="testimonial-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" id="testimonial-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">The presentation slides EasyTeachTec creates are so professional that parents compliment us at PTMs! It has really elevated the image of our school. A fantastic partner for any educational institution.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg,#0EA5E9,#7DD3FC);">DP</div>
+            <div>
+              <strong>Dr. Deepak Pandey</strong>
+              <span>Academic Head, Bright Future School, Kanpur</span>
+            </div>
+            <div class="testimonial-stars">★★★★★</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CONTACT SECTION ======== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's Start Your <span class="gradient-text">Journey Together</span></h2>
+        <p class="section-subtitle">Have questions? We'd love to hear from you. Fill the form or simply WhatsApp us!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <h3>Contact Information</h3>
+          <div class="contact-item" id="contact-phone">
+            <div class="contact-item-icon">📞</div>
+            <div>
+              <strong>Phone & WhatsApp</strong>
+              <a href="tel:+919457286456">+91 9457286456</a>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-whatsapp-info">
+            <div class="contact-item-icon">💬</div>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://wa.me/919457286456" target="_blank" rel="noopener">Chat with us instantly</a>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-hours">
+            <div class="contact-item-icon">⏰</div>
+            <div>
+              <strong>Working Hours</strong>
+              <span>Monday – Saturday, 8AM – 8PM</span>
+            </div>
+          </div>
+          <a href="https://wa.me/919457286456" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg contact-wa-btn" id="contact-whatsapp-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Message on WhatsApp
+          </a>
+        </div>
+        <div class="contact-form-wrapper" data-aos="fade-left">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="contact-name">Your Name *</label>
+              <input type="text" id="contact-name" name="name" placeholder="e.g. Priya Sharma" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-school">School / Institute Name *</label>
+              <input type="text" id="contact-school" name="school" placeholder="e.g. Delhi Public School" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-phone-input">Phone Number *</label>
+              <input type="tel" id="contact-phone-input" name="phone" placeholder="e.g. +91 9876543210" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message *</label>
+              <textarea id="contact-message" name="message" rows="4" placeholder="Tell us about your requirements — subject, class, topics, or any specific materials you need..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg form-submit-btn" id="form-submit-btn">
+              Send Message
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+            <div class="form-success" id="form-success" style="display:none;">
+              <span>✅</span> Thank you! We'll reach out on WhatsApp shortly.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo footer-logo">
+            <div class="logo-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect width="32" height="32" rx="8" fill="url(#footerLogoGrad)"/>
+                <path d="M8 22L16 10L24 22" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10.5 18H21.5" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                <defs>
+                  <linearGradient id="footerLogoGrad" x1="0" y1="0" x2="32" y2="32">
+                    <stop stop-color="#1D4ED8"/>
+                    <stop offset="1" stop-color="#2563EB"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <span class="logo-text">EasyTeach<span class="logo-accent">Tec</span></span>
+          </a>
+          <p class="footer-tagline">Empowering teachers. Transforming classrooms. One material at a time.</p>
+          <a href="https://wa.me/919457286456" target="_blank" rel="noopener" class="btn btn-whatsapp footer-wa-btn" id="footer-whatsapp-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            +91 9457286456
+          </a>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#services">Lesson Plans</a></li>
+            <li><a href="#services">Revision Plans</a></li>
+            <li><a href="#services">Professional Notes</a></li>
+            <li><a href="#services">Mind Maps</a></li>
+            <li><a href="#services">Infographics</a></li>
+            <li><a href="#services">Presentation Slides</a></li>
+            <li><a href="#services">Flash Cards</a></li>
+            <li><a href="#services">Sample Papers</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p><a href="tel:+919457286456">📞 +91 9457286456</a></p>
+          <p><a href="https://wa.me/919457286456" target="_blank" rel="noopener">💬 WhatsApp Us</a></p>
+          <p>⏰ Mon–Sat, 8AM–8PM</p>
+          <p style="margin-top:16px; font-size:13px; color:#94A3B8;">Serving schools and teachers<br/>across India with pride.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EasyTeachTec. All rights reserved. Built with ❤️ for Teachers.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======== FLOATING WHATSAPP BUTTON ======== -->
+  <a href="https://wa.me/919457286456" target="_blank" rel="noopener" class="floating-whatsapp" id="floating-whatsapp-btn" aria-label="Chat on WhatsApp">
+    <div class="floating-wa-pulse"></div>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="floating-wa-label">Chat Now</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
